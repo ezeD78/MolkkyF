@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E32BE8432B860F810018BF4E /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32BE8422B860F810018BF4E /* WatchConnector.swift */; };
+		E32BE8442B86103C0018BF4E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BDB2CA2B825B6400F63F14 /* WatchConnectivity.framework */; };
+		E32BE8462B86114D0018BF4E /* WatchToIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32BE8452B86114D0018BF4E /* WatchToIos.swift */; };
+		E32BE8482B8614410018BF4E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32BE8472B8614410018BF4E /* WatchConnectivity.framework */; };
+		E32BE8492B87CC7F0018BF4E /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC112B67F15A00849913 /* Joueur.swift */; };
+		E32BE84A2B87CC7F0018BF4E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33208222B7925F200BD1E55 /* Message.swift */; };
+		E32BE84B2B87CC7F0018BF4E /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC132B67F30000849913 /* GameBrain.swift */; };
+		E33208212B7616DD00BD1E55 /* EcranClassementFin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33208202B7616DD00BD1E55 /* EcranClassementFin.swift */; };
+		E33208232B7925F200BD1E55 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33208222B7925F200BD1E55 /* Message.swift */; };
+		E346FC122B67F15A00849913 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC112B67F15A00849913 /* Joueur.swift */; };
+		E346FC142B67F30000849913 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC132B67F30000849913 /* GameBrain.swift */; };
+		E346FC192B6B9EAF00849913 /* EcranDejeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC182B6B9EAF00849913 /* EcranDejeux.swift */; };
+		E358FE9B2B4DEAB5007A8849 /* molky2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FE9A2B4DEAB5007A8849 /* molky2App.swift */; };
+		E358FE9D2B4DEAB5007A8849 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FE9C2B4DEAB5007A8849 /* PageDemarrage.swift */; };
+		E358FE9F2B4DEAB6007A8849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */; };
+		E358FEA22B4DEAB6007A8849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */; };
+		E358FEA92B4DF076007A8849 /* InscriptionDesParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */; };
+		E37D553E2B6D450C0099D783 /* MolkyGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D553D2B6D450C0099D783 /* MolkyGridController.swift */; };
+		E3BDB2BA2B825AD400F63F14 /* MolkkyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BDB2B92B825AD400F63F14 /* MolkkyWatchApp.swift */; };
+		E3BDB2BC2B825AD400F63F14 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BDB2BB2B825AD400F63F14 /* PageDemarrage.swift */; };
+		E3BDB2BE2B825AD600F63F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BDB2BD2B825AD600F63F14 /* Assets.xcassets */; };
+		E3BDB2C12B825AD600F63F14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BDB2C02B825AD600F63F14 /* Preview Assets.xcassets */; };
+		E3BDB2C42B825AD600F63F14 /* MolkkyWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3BDB2B72B825AD400F63F14 /* MolkkyWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3F120A62B75499D0065CABE /* MolkyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F120A52B75499D0065CABE /* MolkyGrid.swift */; };
+		E3F40BF42B9F239300CC027C /* EcranJeuxWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F40BF32B9F239300CC027C /* EcranJeuxWatch.swift */; };
+		E3F40BF72B9F42BC00CC027C /* EcranClassementFinWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F40BF62B9F42BC00CC027C /* EcranClassementFinWatch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3BDB2C22B825AD600F63F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E358FE8F2B4DEAB5007A8849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BDB2B62B825AD400F63F14;
+			remoteInfo = "MolkkyWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3BDB2C82B825AD600F63F14 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E3BDB2C42B825AD600F63F14 /* MolkkyWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E32BE8422B860F810018BF4E /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		E32BE8452B86114D0018BF4E /* WatchToIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToIos.swift; sourceTree = "<group>"; };
+		E32BE8472B8614410018BF4E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		E33208202B7616DD00BD1E55 /* EcranClassementFin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranClassementFin.swift; sourceTree = "<group>"; };
+		E33208222B7925F200BD1E55 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E346FC112B67F15A00849913 /* Joueur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		E346FC132B67F30000849913 /* GameBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
+		E346FC182B6B9EAF00849913 /* EcranDejeux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranDejeux.swift; sourceTree = "<group>"; };
+		E358FE972B4DEAB5007A8849 /* molky2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = molky2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E358FE9A2B4DEAB5007A8849 /* molky2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = molky2App.swift; sourceTree = "<group>"; };
+		E358FE9C2B4DEAB5007A8849 /* PageDemarrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
+		E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionDesParticipant.swift; sourceTree = "<group>"; };
+		E37D553D2B6D450C0099D783 /* MolkyGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkyGridController.swift; sourceTree = "<group>"; };
+		E3BDB2B72B825AD400F63F14 /* MolkkyWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MolkkyWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BDB2B92B825AD400F63F14 /* MolkkyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyWatchApp.swift; sourceTree = "<group>"; };
+		E3BDB2BB2B825AD400F63F14 /* PageDemarrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
+		E3BDB2BD2B825AD600F63F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3BDB2C02B825AD600F63F14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3BDB2CA2B825B6400F63F14 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		E3F120A52B75499D0065CABE /* MolkyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkyGrid.swift; sourceTree = "<group>"; };
+		E3F40BF32B9F239300CC027C /* EcranJeuxWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranJeuxWatch.swift; sourceTree = "<group>"; };
+		E3F40BF62B9F42BC00CC027C /* EcranClassementFinWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranClassementFinWatch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E358FE942B4DEAB5007A8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32BE8482B8614410018BF4E /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BDB2B42B825AD400F63F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32BE8442B86103C0018BF4E /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E346FC0F2B67F11700849913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E358FE9C2B4DEAB5007A8849 /* PageDemarrage.swift */,
+				E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */,
+				E346FC182B6B9EAF00849913 /* EcranDejeux.swift */,
+				E3F120A52B75499D0065CABE /* MolkyGrid.swift */,
+				E33208202B7616DD00BD1E55 /* EcranClassementFin.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E346FC102B67F14200849913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E346FC112B67F15A00849913 /* Joueur.swift */,
+				E33208222B7925F200BD1E55 /* Message.swift */,
+				E346FC132B67F30000849913 /* GameBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E358FE8E2B4DEAB5007A8849 = {
+			isa = PBXGroup;
+			children = (
+				E358FE992B4DEAB5007A8849 /* molky2 */,
+				E3BDB2B82B825AD400F63F14 /* MolkkyWatch Watch App */,
+				E358FE982B4DEAB5007A8849 /* Products */,
+				E3BDB2C92B825B6400F63F14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E358FE982B4DEAB5007A8849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E358FE972B4DEAB5007A8849 /* molky2.app */,
+				E3BDB2B72B825AD400F63F14 /* MolkkyWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E358FE992B4DEAB5007A8849 /* molky2 */ = {
+			isa = PBXGroup;
+			children = (
+				E358FE9A2B4DEAB5007A8849 /* molky2App.swift */,
+				E346FC102B67F14200849913 /* Model */,
+				E37D553C2B6D44B60099D783 /* Controler */,
+				E346FC0F2B67F11700849913 /* View */,
+				E32BE8422B860F810018BF4E /* WatchConnector.swift */,
+				E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */,
+				E358FEA02B4DEAB6007A8849 /* Preview Content */,
+			);
+			path = molky2;
+			sourceTree = "<group>";
+		};
+		E358FEA02B4DEAB6007A8849 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E37D553C2B6D44B60099D783 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				E37D553D2B6D450C0099D783 /* MolkyGridController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		E3BDB2B82B825AD400F63F14 /* MolkkyWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E3BDB2B92B825AD400F63F14 /* MolkkyWatchApp.swift */,
+				E3BDB2BB2B825AD400F63F14 /* PageDemarrage.swift */,
+				E3F40BF32B9F239300CC027C /* EcranJeuxWatch.swift */,
+				E3F40BF62B9F42BC00CC027C /* EcranClassementFinWatch.swift */,
+				E32BE8452B86114D0018BF4E /* WatchToIos.swift */,
+				E3BDB2BD2B825AD600F63F14 /* Assets.xcassets */,
+				E3BDB2BF2B825AD600F63F14 /* Preview Content */,
+			);
+			path = "MolkkyWatch Watch App";
+			sourceTree = "<group>";
+		};
+		E3BDB2BF2B825AD600F63F14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3BDB2C02B825AD600F63F14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3BDB2C92B825B6400F63F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32BE8472B8614410018BF4E /* WatchConnectivity.framework */,
+				E3BDB2CA2B825B6400F63F14 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E358FE962B4DEAB5007A8849 /* molky2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E358FEA52B4DEAB6007A8849 /* Build configuration list for PBXNativeTarget "molky2" */;
+			buildPhases = (
+				E358FE932B4DEAB5007A8849 /* Sources */,
+				E358FE942B4DEAB5007A8849 /* Frameworks */,
+				E358FE952B4DEAB5007A8849 /* Resources */,
+				E3BDB2C82B825AD600F63F14 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3BDB2C32B825AD600F63F14 /* PBXTargetDependency */,
+			);
+			name = molky2;
+			productName = molky2;
+			productReference = E358FE972B4DEAB5007A8849 /* molky2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3BDB2B62B825AD400F63F14 /* MolkkyWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BDB2C52B825AD600F63F14 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch App" */;
+			buildPhases = (
+				E3BDB2B32B825AD400F63F14 /* Sources */,
+				E3BDB2B42B825AD400F63F14 /* Frameworks */,
+				E3BDB2B52B825AD400F63F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MolkkyWatch Watch App";
+			productName = "MolkkyWatch Watch App";
+			productReference = E3BDB2B72B825AD400F63F14 /* MolkkyWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E358FE8F2B4DEAB5007A8849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E358FE962B4DEAB5007A8849 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E3BDB2B62B825AD400F63F14 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E358FE922B4DEAB5007A8849 /* Build configuration list for PBXProject "molky2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E358FE8E2B4DEAB5007A8849;
+			productRefGroup = E358FE982B4DEAB5007A8849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E358FE962B4DEAB5007A8849 /* molky2 */,
+				E3BDB2B62B825AD400F63F14 /* MolkkyWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E358FE952B4DEAB5007A8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E358FEA22B4DEAB6007A8849 /* Preview Assets.xcassets in Resources */,
+				E358FE9F2B4DEAB6007A8849 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BDB2B52B825AD400F63F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BDB2C12B825AD600F63F14 /* Preview Assets.xcassets in Resources */,
+				E3BDB2BE2B825AD600F63F14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E358FE932B4DEAB5007A8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E346FC192B6B9EAF00849913 /* EcranDejeux.swift in Sources */,
+				E32BE8432B860F810018BF4E /* WatchConnector.swift in Sources */,
+				E358FE9D2B4DEAB5007A8849 /* PageDemarrage.swift in Sources */,
+				E33208212B7616DD00BD1E55 /* EcranClassementFin.swift in Sources */,
+				E37D553E2B6D450C0099D783 /* MolkyGridController.swift in Sources */,
+				E346FC142B67F30000849913 /* GameBrain.swift in Sources */,
+				E3F120A62B75499D0065CABE /* MolkyGrid.swift in Sources */,
+				E346FC122B67F15A00849913 /* Joueur.swift in Sources */,
+				E33208232B7925F200BD1E55 /* Message.swift in Sources */,
+				E358FE9B2B4DEAB5007A8849 /* molky2App.swift in Sources */,
+				E358FEA92B4DF076007A8849 /* InscriptionDesParticipant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BDB2B32B825AD400F63F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32BE8492B87CC7F0018BF4E /* Joueur.swift in Sources */,
+				E32BE84A2B87CC7F0018BF4E /* Message.swift in Sources */,
+				E32BE84B2B87CC7F0018BF4E /* GameBrain.swift in Sources */,
+				E3F40BF42B9F239300CC027C /* EcranJeuxWatch.swift in Sources */,
+				E3F40BF72B9F42BC00CC027C /* EcranClassementFinWatch.swift in Sources */,
+				E3BDB2BC2B825AD400F63F14 /* PageDemarrage.swift in Sources */,
+				E32BE8462B86114D0018BF4E /* WatchToIos.swift in Sources */,
+				E3BDB2BA2B825AD400F63F14 /* MolkkyWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3BDB2C32B825AD600F63F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3BDB2B62B825AD400F63F14 /* MolkkyWatch Watch App */;
+			targetProxy = E3BDB2C22B825AD600F63F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E358FEA32B4DEAB6007A8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		E358FEA42B4DEAB6007A8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		E358FEA62B4DEAB6007A8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"molky2/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG.molky2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E358FEA72B4DEAB6007A8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"molky2/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG.molky2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3BDB2C62B825AD600F63F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MolkkyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MolkkyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = EG.molky2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG.molky2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		E3BDB2C72B825AD600F63F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MolkkyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MolkkyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = EG.molky2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG.molky2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E358FE922B4DEAB5007A8849 /* Build configuration list for PBXProject "molky2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E358FEA32B4DEAB6007A8849 /* Debug */,
+				E358FEA42B4DEAB6007A8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E358FEA52B4DEAB6007A8849 /* Build configuration list for PBXNativeTarget "molky2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E358FEA62B4DEAB6007A8849 /* Debug */,
+				E358FEA72B4DEAB6007A8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BDB2C52B825AD600F63F14 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BDB2C62B825AD600F63F14 /* Debug */,
+				E3BDB2C72B825AD600F63F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E358FE8F2B4DEAB5007A8849 /* Project object */;
+}
